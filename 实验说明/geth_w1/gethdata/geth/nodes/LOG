@@ -55,3 +55,38 @@
 16:32:48.340133 table@remove removed @2
 16:41:17.248272 db@close closing
 16:41:17.248324 db@close done T·51.728µs
+=============== Mar 29, 2023 (CST) ===============
+21:00:13.960410 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:00:13.960972 version@stat F·[0 1] S·176B[0B 176B] Sc·[0.00 0.00]
+21:00:13.961001 db@open opening
+21:00:13.961055 journal@recovery F·1
+21:00:13.977664 journal@recovery recovering @12
+21:00:13.978764 memdb@flush created L0@15 N·1 S·159B "loc..seq,v10":"loc..seq,v10"
+21:00:13.993490 version@stat F·[1 1] S·335B[159B 176B] Sc·[0.25 0.00]
+21:00:14.002034 db@janitor F·5 G·1
+21:00:14.002048 db@janitor removing table-11
+21:00:14.002076 db@open done T·41.070997ms
+21:03:23.845037 db@close closing
+21:03:23.845074 db@close done T·36.921µs
+=============== Mar 29, 2023 (CST) ===============
+21:03:27.646141 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:03:27.646310 version@stat F·[1 1] S·335B[159B 176B] Sc·[0.25 0.00]
+21:03:27.646345 db@open opening
+21:03:27.646367 journal@recovery F·1
+21:03:27.648784 journal@recovery recovering @16
+21:03:27.650160 memdb@flush created L0@18 N·1 S·159B "loc..seq,v12":"loc..seq,v12"
+21:03:27.651564 version@stat F·[2 1] S·494B[318B 176B] Sc·[0.50 0.00]
+21:03:27.655397 db@janitor F·5 G·0
+21:03:27.655413 db@open done T·9.064778ms
+21:49:27.740952 db@close closing
+21:49:27.740984 db@close done T·31.241µs
+=============== Mar 29, 2023 (CST) ===============
+21:50:37.973261 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:50:37.973550 version@stat F·[2 1] S·494B[318B 176B] Sc·[0.50 0.00]
+21:50:37.973566 db@open opening
+21:50:37.973606 journal@recovery F·1
+21:50:37.974874 journal@recovery recovering @19
+21:50:37.977291 memdb@flush created L0@21 N·1 S·159B "loc..seq,v14":"loc..seq,v14"
+21:50:37.978723 version@stat F·[3 1] S·653B[477B 176B] Sc·[0.75 0.00]
+21:50:37.985434 db@janitor F·6 G·0
+21:50:37.985466 db@open done T·11.894855ms

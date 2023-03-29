@@ -205,3 +205,35 @@
 16:32:28.781561 db@open done T·52.282527ms
 16:41:00.431436 db@close closing
 16:41:00.431548 db@close done T·111.837µs
+=============== Mar 29, 2023 (CST) ===============
+21:00:52.442422 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:00:52.442670 version@stat F·[2 1] S·8KiB[1KiB 6KiB] Sc·[0.50 0.00]
+21:00:52.442737 db@open opening
+21:00:52.442814 journal@recovery F·1
+21:00:52.443265 journal@recovery recovering @48
+21:00:52.447725 memdb@flush created L0@50 N·143 S·7KiB "\b V..\xe5\xf3m,v438":"\xebX\x95..\xe8\xa0:,v437"
+21:00:52.448102 version@stat F·[3 1] S·16KiB[9KiB 6KiB] Sc·[0.75 0.00]
+21:00:52.454281 db@janitor F·6 G·0
+21:00:52.454414 db@open done T·11.606128ms
+21:00:52.455605 db@close closing
+21:00:52.455692 db@close done T·85.968µs
+=============== Mar 29, 2023 (CST) ===============
+21:00:52.490226 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:00:52.490489 version@stat F·[3 1] S·16KiB[9KiB 6KiB] Sc·[0.75 0.00]
+21:00:52.490564 db@open opening
+21:00:52.490645 journal@recovery F·1
+21:00:52.493041 journal@recovery recovering @51
+21:00:52.494748 memdb@flush created L0@53 N·1 S·355B "eth..\x92\xf4\x90,v442":"eth..\x92\xf4\x90,v442"
+21:00:52.497293 version@stat F·[4 1] S·16KiB[9KiB 6KiB] Sc·[1.00 0.00]
+21:00:52.501876 db@janitor F·7 G·0
+21:00:52.501962 db@open done T·11.339743ms
+21:00:52.502011 table@compaction L0·4 -> L1·1 S·16KiB Q·443
+21:00:52.504369 table@build created L1@56 N·196 S·12KiB "\b V..\xe5\xf3m,v438":"\xebX\x95..\xe8\xa0:,v437"
+21:00:52.504402 version@stat F·[0 1] S·12KiB[0B 12KiB] Sc·[0.00 0.00]
+21:00:52.505094 table@compaction committed F-4 S-3KiB Ke·0 D·87 T·3.030188ms
+21:00:52.505145 table@remove removed @50
+21:00:52.505161 table@remove removed @47
+21:00:52.505172 table@remove removed @44
+21:00:52.505183 table@remove removed @43
+21:01:16.507714 db@close closing
+21:01:16.507758 db@close done T·43.425µs

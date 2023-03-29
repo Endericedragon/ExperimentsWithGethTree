@@ -1,5 +1,8 @@
+// 该变量不可随意更改名字，否则请相应更改update_enode_of_w1.py中的代码
+var w1Enode = "enode://9382213a74dec4c63180a6869d6fae9006726ea26da84680b8eb223d9a08da6f8e674226a9b04ad7d602f882db442b495b415bfc7174b7323dbe11b8b8c04eb0@127.0.0.1:30309?discport=0"
+
 //添加w1
-admin.addPeer("enode://9382213a74dec4c63180a6869d6fae9006726ea26da84680b8eb223d9a08da6f8e674226a9b04ad7d602f882db442b495b415bfc7174b7323dbe11b8b8c04eb0@127.0.0.1:30309?discport=0")
+admin.addPeer(w1Enode)
 
 sleep(10000)
 
@@ -17,7 +20,7 @@ personal.unlockAccount(eth.accounts[0],"123",3000)
 //personal.unlockAccount(eth.accounts[2],"123",3000)
 //personal.unlockAccount(eth.accounts[3],"123",3000)
 
-admin.addPeer("enode://9382213a74dec4c63180a6869d6fae9006726ea26da84680b8eb223d9a08da6f8e674226a9b04ad7d602f882db442b495b415bfc7174b7323dbe11b8b8c04eb0@127.0.0.1:30309?discport=0")
+admin.addPeer(w1Enode)
 
 function sleep(delay) {
     var start = new Date().getTime();
